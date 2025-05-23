@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Footer1() {
   return (
@@ -10,7 +11,7 @@ export default function Footer1() {
           <div className="row justify-content-lg-between">
             <div className="col-xl-3 col-sm-6">
               <div className="footer_widget footer_about mb50-lg">
-                <div className="site_logo"><Link href="/"><img className="logo_before" src="/images/logo/logo.svg"  alt="Petopia Logo"/></Link></div>
+                <div className="site_logo"><Link href="/"><Image className="logo_before" src="/images/logo/logo.svg" alt="Petopia Logo" width={500} height={500} unoptimized /></Link></div>
                 <p>Tristique nulla aliquet enim tortor at auctor urna nunc. Massa enim nec dui nunc mattis enim ut tellus. Sed ut perspiciatis unde ...</p>
                 <div className="footer_hotline iconbox_item iconbox_lefticon">
                   <div className="item_icon"><i className="fas fa-phone-alt"></i></div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const PageTitle = (props) => {
   return (
@@ -14,7 +15,7 @@ const PageTitle = (props) => {
           <p className="text">{props.pageText}</p>
         </div>
       </div>
-      <img className={props.customClass} src={props.floatImage} alt=""/>
+      <Image className={props.customClass} src={props.floatImage} alt="" width={500} height={500} />
     </section>
   );
 };

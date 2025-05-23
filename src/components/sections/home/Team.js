@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 const Team = () => {
   return (
@@ -14,7 +15,7 @@ const Team = () => {
         <div className="col col-lg-3 col-md-6 col-sm-6">
           <div className="team_item text-center">
             <div className="item_image">
-            <img src="/images/team/team_img_1.png" alt="Team Image"/>
+            <Image src="/images/team/team_img_1.png" alt="Team Image" width={500} height={500} />
             </div>
             <div className="item_content">
               <h3 className="item_title">Cameron Rogers</h3>
@@ -31,7 +32,7 @@ const Team = () => {
         <div className="col col-lg-3 col-md-6 col-sm-6">
           <div className="team_item text-center">
             <div className="item_image">
-            <img src="/images/team/team_img_2.png" alt="Team Image"/>
+            <Image src="/images/team/team_img_2.png" alt="Team Image" width={500} height={500} />
             </div>
             <div className="item_content">
               <h3 className="item_title">Irene Sotelo</h3>
@@ -48,7 +49,7 @@ const Team = () => {
         <div className="col col-lg-3 col-md-6 col-sm-6">
           <div className="team_item text-center">
             <div className="item_image">
-            <img src="/images/team/team_img_3.png" alt="Team Image"/>
+            <Image src="/images/team/team_img_3.png" alt="Team Image" width={500} height={500} />
             </div>
             <div className="item_content">
               <h3 className="item_title">Cameron Rogers</h3>
@@ -65,7 +66,7 @@ const Team = () => {
         <div className="col col-lg-3 col-md-6 col-sm-6">
           <div className="team_item text-center">
             <div className="item_image">
-            <img src="/images/team/team_img_4.png" alt="Team Image"/>
+            <Image src="/images/team/team_img_4.png" alt="Team Image" width={500} height={500} />
             </div>
             <div className="item_content">
               <h3 className="item_title">Tiontay Carroll</h3>

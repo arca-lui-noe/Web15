@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 import DynamicLogo from "./DynamicLogo";
+import Image from "next/image";
 
 export default function Header1({
   scroll,
@@ -178,9 +179,11 @@ export default function Header1({
                       <ul className="cart_items_list unorder_list_block">
                         <li>
                           <Link className="item_image" href="shop-details">
-                            <img
+                            <Image
                               src="/images/cart/cart_img_1.jpg"
                               alt="Pet Care Service"
+                              width={500}
+                              height={500}
                             />
                           </Link>
                           <div className="item_content">
@@ -197,9 +200,11 @@ export default function Header1({
                         </li>
                         <li>
                           <Link className="item_image" href="shop-details">
-                            <img
+                            <Image
                               src="/images/cart/cart_img_2.jpg"
                               alt="Pet Care Service"
+                              width={500}
+                              height={500}
                             />
                           </Link>
                           <div className="item_content">

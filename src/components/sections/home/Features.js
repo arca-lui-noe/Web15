@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Features = () => {
   return (
@@ -10,10 +11,10 @@ const Features = () => {
         <div className="col col-lg-5">
           <div className="feature_image">
             <div className="image_wrap">
-              <img src="/images/feature/feature_img_1.jpg" alt="Pet Grooming Service Image"/>
+              <Image src="/images/feature/feature_img_1.jpg" alt="Pet Grooming Service Image" width={500} height={500} />
             </div>
             <div className="shape_image_1">
-              <img src="/images/shape/shape_butterfly.svg" alt="Butterfly Shape"/>
+              <Image src="/images/shape/shape_butterfly.svg" alt="Butterfly Shape" width={500} height={500} unoptimized />
             </div>
           </div>
         </div>
@@ -44,13 +45,13 @@ const Features = () => {
       </div>
     </div>
     <div className="decoration_item shape_image_2">
-      <img src="/images/shape/shape_group_1.svg" alt="Pet Tools Box"/>
+      <Image src="/images/shape/shape_group_1.svg" alt="Pet Tools Box" width={500} height={500} unoptimized />
     </div>
     <div className="decoration_item decoration_image_1">
-      <img src="/images/feature/feature_img_2.jpg" alt="Pet Grooming Service Image"/>
+      <Image src="/images/feature/feature_img_2.jpg" alt="Pet Grooming Service Image" width={500} height={500} />
     </div>
     <div className="decoration_item decoration_image_2">
-      <img src="/images/feature/feature_img_3.jpg" alt="Pet Grooming Service Image"/>
+      <Image src="/images/feature/feature_img_3.jpg" alt="Pet Grooming Service Image" width={500} height={500} />
     </div>
   </section>
 

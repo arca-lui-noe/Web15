@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from 'react';
+import Image from "next/image";
 
 const Pricing = () => {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -251,10 +252,10 @@ const Pricing = () => {
       </div>
     </div>
     <div className="decoration_item shape_dot_1">
-      <img src="/images/shape/shape_dot_group_3.svg" alt="Colorful Dots"/>
+      <Image src="/images/shape/shape_dot_group_3.svg" alt="Colorful Dots" width={500} height={500} unoptimized />
     </div>
     <div className="decoration_item shape_dot_2">
-      <img src="/images/shape/shape_dot_group_4.svg" alt="Colorful Dots"/>
+      <Image src="/images/shape/shape_dot_group_4.svg" alt="Colorful Dots" width={500} height={500} unoptimized />
     </div>
   </section>
 

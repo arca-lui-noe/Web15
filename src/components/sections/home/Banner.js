@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Banner = () => {
   return (
@@ -86,10 +87,10 @@ const Banner = () => {
       </svg>
     </div>
     <div className="decoration_item chat_img_1">
-      <img src="/images/banner/cat_img_1.png" alt="Cat Image"/>
+      <Image src="/images/banner/cat_img_1.png" alt="Cat Image" width={500} height={500} />
     </div>
     <div className="decoration_item chat_img_2">
-      <img src="/images/banner/cat_img_2.png" alt="Cat Image"/>
+      <Image src="/images/banner/cat_img_2.png" alt="Cat Image" width={500} height={500} />
     </div>
   </section>
 

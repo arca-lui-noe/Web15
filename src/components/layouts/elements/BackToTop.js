@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function WhatsappButton() {
   const [visible, setVisible] = useState(false);
@@ -23,10 +24,13 @@ export default function WhatsappButton() {
           className="whatsapp-float"
           aria-label="Kapcsolat WhatsAppon"
         >
-          <img
+          <Image
             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
             alt="WhatsApp ikon"
             className="whatsapp-logo"
+            width={50}
+            height={50}
+            unoptimized
           />
         </a>
       )}
