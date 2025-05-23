@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Subscription = () => {
   return (
@@ -35,7 +36,7 @@ const Subscription = () => {
               }}
             ></div>
             <div className="decoration_item shape_image_1">
-              <img src="/images/shape/shape_path_5.svg" alt="Shape Image" />
+              <Image src="/images/shape/shape_path_5.svg" alt="Shape Image" width={500} height={500} unoptimized />
             </div>
             {/* <div className="decoration_item shape_image_2">
               <img src="/images/shape/shape_circle_1.svg" alt="Shape Image" />
@@ -44,7 +45,7 @@ const Subscription = () => {
               <img src="/images/about/about_img_4.png" alt="Pet Image" />
             </div> */}
             <div className="decoration_item pet_image_2">
-              <img src="/images/about/about_img_5.png" alt="Pet Image" />
+              <Image src="/images/about/about_img_5.png" alt="Pet Image" width={500} height={500} />
             </div>
           </div>
         </div>

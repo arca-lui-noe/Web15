@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -75,10 +76,10 @@ const Contact = () => {
     </div>
 
     <div className="decoration_item shape_image_1">
-      <img src="/images/shape/shape_purr.svg" alt="Pet Purr"/>
+      <Image src="/images/shape/shape_purr.svg" alt="Pet Purr" width={500} height={500} unoptimized />
     </div>
     <div className="decoration_item shape_image_2">
-      <img src="/images/shape/shape_cat.svg" alt="Cat"/>
+      <Image src="/images/shape/shape_cat.svg" alt="Cat" width={500} height={500} unoptimized />
     </div>
   </section>
 

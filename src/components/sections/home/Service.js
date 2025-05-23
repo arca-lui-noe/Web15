@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Service = () => {
   return (
@@ -41,7 +42,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>
@@ -74,7 +75,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>
@@ -107,7 +108,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>
@@ -137,7 +138,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>
@@ -170,7 +171,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>
@@ -203,7 +204,7 @@ const Service = () => {
                   <i className="far fa-long-arrow-right"></i>
                 </Link>
                 <div className="decoration_image">
-                  <img src="/images/shape/shape_paws.svg" alt="Pet Paws" />
+                  <Image src="/images/shape/shape_paws.svg" alt="Pet Paws" width={500} height={500} unoptimized />
                 </div>
               </div>
             </div>

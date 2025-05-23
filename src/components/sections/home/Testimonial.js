@@ -1,6 +1,7 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import Image from "next/image";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -61,7 +62,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_1.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_1.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Home Visits</h4>
                 <span className="admin_designation">Lucas Simões</span>
@@ -82,7 +83,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_2.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_2.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Dog Boarding</h4>
                 <span className="admin_designation">Wilhelm Dowall</span>
@@ -103,7 +104,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_3.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_3.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Pet Training</h4>
                 <span className="admin_designation">Lara Madrigal</span>
@@ -124,7 +125,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_4.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_4.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Home Visit</h4>
                 <span className="admin_designation">Lara Madrigal</span>
@@ -145,7 +146,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_1.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_1.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Home Visits</h4>
                 <span className="admin_designation">Lucas Simões</span>
@@ -166,7 +167,7 @@ const Testimonial = () => {
         <SwiperSlide className="carousel_item">
           <div className="testimonial_item">
             <div className="testimonial_admin">
-              <div className="admin_thumbnail"><img src="/images/meta/thumbnail_img_2.png" alt="Pet Thumbnail Image"/></div>
+              <div className="admin_thumbnail"><Image src="/images/meta/thumbnail_img_2.png" alt="Pet Thumbnail Image" width={500} height={500} /></div>
               <div className="admin_info">
                 <h4 className="admin_name">Dog Boarding</h4>
                 <span className="admin_designation">Wilhelm Dowall</span>

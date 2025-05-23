@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from 'react';
+import Image from "next/image";
 
 const Faq = () => {
   const [isActive, setIsActive] = useState({
@@ -87,16 +88,16 @@ const Faq = () => {
         <div className="col col-lg-6">
           <div className="about_image_1">
             <div className="image_1 p-0">
-              <img src="/images/about/about_img_1.jpg" alt="Pet Doctor"/>
+              <Image src="/images/about/about_img_1.jpg" alt="Pet Doctor" width={500} height={500} />
             </div>
             <div className="image_2">
-              <img src="/images/about/about_img_2.jpg" alt="Cat Image"/>
+              <Image src="/images/about/about_img_2.jpg" alt="Cat Image" width={500} height={500} />
             </div>
             <div className="image_3">
-              <img src="/images/about/about_img_3.jpg" alt="Dog Image"/>
+              <Image src="/images/about/about_img_3.jpg" alt="Dog Image" width={500} height={500} />
             </div>
             <div className="shape_img_1">
-              <img src="/images/shape/shape_circle_1.svg" alt="Yellow Circle"/>
+              <Image src="/images/shape/shape_circle_1.svg" alt="Yellow Circle" width={500} height={500} unoptimized />
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ const Faq = () => {
     </div>
 
     <div className="decoration_item shape_dot_1">
-      <img src="/images/shape/shape_dot_group_1.svg" alt="Colorful Dots"/>
+      <Image src="/images/shape/shape_dot_group_1.svg" alt="Colorful Dots" width={500} height={500} unoptimized />
     </div>
   </section>
 

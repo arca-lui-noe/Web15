@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Banner2 = () => {
   return (
@@ -10,7 +11,7 @@ const Banner2 = () => {
       <div className="row align-items-center">
         <div className="col order-last col-lg-6">
           <div className="banner_image">
-            <img src="/images/banner/dogs_img_1.png" alt="Pet Dogs Image"/>
+            <Image src="/images/banner/dogs_img_1.png" alt="Pet Dogs Image" width={500} height={500} />
           </div>
         </div>
         <div className="col col-lg-6">

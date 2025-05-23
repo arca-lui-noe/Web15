@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const BlogPost = () => {
   return (
@@ -22,9 +23,11 @@ const BlogPost = () => {
                   </li>
                 </ul>
                 <Link className="item_image" href="news-details">
-                  <img
+                  <Image
                     src="/images/blog/blog_image_1.jpg"
                     alt="Pet Care Image"
+                    width={500}
+                    height={500}
                   />
                 </Link>
                 <div className="item_content">
@@ -63,9 +66,11 @@ const BlogPost = () => {
                   </li>
                 </ul>
                 <Link className="item_image" href="news-details">
-                  <img
+                  <Image
                     src="/images/blog/blog_image_2.jpg"
                     alt="Pet Care Image"
+                    width={500}
+                    height={500}
                   />
                 </Link>
                 <div className="item_content">
@@ -104,9 +109,11 @@ const BlogPost = () => {
                   </li>
                 </ul>
                 <Link className="item_image" href="news-details">
-                  <img
+                  <Image
                     src="/images/blog/blog_image_3.jpg"
                     alt="Pet Care Image"
+                    width={500}
+                    height={500}
                   />
                 </Link>
                 <div className="item_content">
